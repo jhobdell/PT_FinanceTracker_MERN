@@ -8,7 +8,7 @@ export const Dashboard = () => {
 
     return (
         <div className="dashboard-container">
-            <h1>Welcome, {user?.firstName}!  Here are you finances.</h1>
+            <h1>Welcome, {user?.firstName}!  Here are your finances.</h1>
             <FinancialRecordForm />
             <FinancialRecordList />
         </div>
